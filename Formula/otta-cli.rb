@@ -4,28 +4,28 @@
 class OttaCli < Formula
   desc "CLI for automating workflows around otta.fi time tracking"
   homepage "https://github.com/mekedron/otta-cli"
-  version "0.1.1"
+  version "0.2.0"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/mekedron/otta-cli/releases/download/v0.1.1/otta_v0.1.1_darwin_amd64.tar.gz"
-      sha256 "2e537dc7fe146762b036265b602a30aed6ebc337e562152e759b69c72a5f7f66"
+      url "https://github.com/mekedron/otta-cli/releases/download/v0.2.0/otta_v0.2.0_darwin_amd64.tar.gz"
+      sha256 "216ee3305bf05c6182b4c556eb379caf149bc17e187d78878c005f9ef55d2615"
     end
     if Hardware::CPU.arm?
-      url "https://github.com/mekedron/otta-cli/releases/download/v0.1.1/otta_v0.1.1_darwin_arm64.tar.gz"
-      sha256 "db80cc572bc640d6cff983ea71d50c9910ff06e40a757918c39bb9b11739be08"
+      url "https://github.com/mekedron/otta-cli/releases/download/v0.2.0/otta_v0.2.0_darwin_arm64.tar.gz"
+      sha256 "8658ca3683774f0ac873624a8937ac083b6325bcf282e9973b530acd8b8ad181"
     end
   end
 
   on_linux do
     if Hardware::CPU.intel? && Hardware::CPU.is_64_bit?
-      url "https://github.com/mekedron/otta-cli/releases/download/v0.1.1/otta_v0.1.1_linux_amd64.tar.gz"
-      sha256 "fe92a377b95d1c7a46b7d18fdb7f641d6faf18f6b53cfddf61e77228a83613f0"
+      url "https://github.com/mekedron/otta-cli/releases/download/v0.2.0/otta_v0.2.0_linux_amd64.tar.gz"
+      sha256 "8ab3416e97acdf3bd2b688b3e00cc208f61ae8caa4739060ec19b920d2806f9f"
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/mekedron/otta-cli/releases/download/v0.1.1/otta_v0.1.1_linux_arm64.tar.gz"
-      sha256 "3fe6c108b1a2e29adb8068d3ac7aa2ae2641c3484e36643a5417ec73aac72d22"
+      url "https://github.com/mekedron/otta-cli/releases/download/v0.2.0/otta_v0.2.0_linux_arm64.tar.gz"
+      sha256 "996b273d357608a6d022aa62940d85a52e5f833f9670d5324a1629e58fd5eb0a"
     end
   end
 
