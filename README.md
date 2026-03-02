@@ -3,7 +3,7 @@
 Install this tap:
 
 ```bash
-brew tap mekedron/tap https://github.com/mekedron/tap
+brew tap mekedron/tap https://github.com/mekedron/homebrew-tap
 ```
 
 Install `wolt-cli`:
