@@ -1,19 +1,33 @@
 # Homebrew Tap
 
-Install this tap:
+Personal Homebrew tap with CLI tools and apps.
+
+## Setup
 
 ```bash
-brew tap mekedron/tap https://github.com/mekedron/homebrew-tap
+brew tap mekedron/tap
 ```
 
-Install `wolt-cli`:
+## Formulas
+
+| Formula | Version | Description | Platforms |
+|---------|---------|-------------|-----------|
+| `wolt-cli` | 1.0.0 | Unofficial community CLI for interacting with Wolt APIs | macOS, Linux |
+| `otta-cli` | 0.2.3 | CLI for automating workflows around otta.fi time tracking | macOS, Linux |
+| `ocr` | 1.0.0 | Capture a screenshot, OCR it with Apple Vision, and print text to stdout | macOS |
 
 ```bash
 brew install mekedron/tap/wolt-cli
+brew install mekedron/tap/otta-cli
+brew install mekedron/tap/ocr
 ```
 
-Verify:
+## Casks
+
+| Cask | Version | Description | Requires |
+|------|---------|-------------|----------|
+| `clipslop` | 1.1.8 | Keyboard-first AI text pipeline for macOS | macOS Sonoma+ |
 
 ```bash
-wolt --help
+brew install --cask mekedron/tap/clipslop
 ```
