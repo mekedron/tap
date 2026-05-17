@@ -1,6 +1,6 @@
 cask "clipslop" do
-  version "1.3.2"
-  sha256 "251cec69dd9ce78ff9e95c0205b2d76637877ca4fda57e9959dab9a49deac23f"
+  version "1.3.3"
+  sha256 "f19ed0f5eab9aa0eabdb5163fab0a299cc550d4159ec4c5de23e575c85426eea"
 
   url "https://github.com/mekedron/clipslop/releases/download/v#{version}/ClipSlop-#{version}-macOS.dmg"
   name "ClipSlop"
